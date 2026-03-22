@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<!-- saved from url=(0072)file:///C:/Users/yasin/.gemini/antigravity/scratch/NativePath/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NativePath - Comprehensive English Learning</title>
+    <link rel="stylesheet" href="./NativePath - Comprehensive English Learning_files/styles.css">
+    <!-- Google Fonts for English and Arabic -->
+    <link href="./NativePath - Comprehensive English Learning_files/css2" rel="stylesheet">
+    <link rel="stylesheet" href="./NativePath - Comprehensive English Learning_files/all.min.css">
+</head>
+<body data-theme="dark">
+    <div id="app-container">
+        <!-- Sidebar Navigation -->
+        <nav id="sidebar">
+            <div class="logo">
+                <i class="fa-solid fa-language"></i>
+                <h2>NativePath</h2>
+            </div>
+            
+            <div class="level-selector">
+                <label for="level-select">Current Level:</label>
+                <select id="level-select">
+                    <option value="0">Level 0 (Beginner)</option>
+                    <option value="A1">Level A1</option>
+                    <option value="A2">Level A2</option>
+                    <option value="B1">Level B1</option>
+                    <option value="B2">Level B2</option>
+                    <option value="C1">Level C1 (Advanced)</option>
+                </select>
+            </div>
+
+            <ul class="nav-links">
+                <li data-module="dashboard" class="active"><i class="fa-solid fa-house"></i> Dashboard</li>
+                <li data-module="vocabulary" class=""><i class="fa-solid fa-book-open"></i> Vocabulary</li>
+                <li data-module="grammar" class=""><i class="fa-solid fa-scale-balanced"></i> Grammar</li>
+                <li data-module="conversation" class=""><i class="fa-solid fa-comments"></i> Conversation</li>
+                <li data-module="listening" class=""><i class="fa-solid fa-headphones"></i> Listening</li>
+                <li data-module="phonetics" class=""><i class="fa-solid fa-microphone-lines"></i> Phonetics</li>
+            </ul>
+        </nav>
+
+        <!-- Main Content Area -->
+        <main id="main-content">
+            <header>
+                <h1 id="module-title">Dashboard</h1>
+                <div class="user-controls">
+                    <button id="theme-toggle"><i class="fa-solid fa-sun"></i></button>
+                </div>
+            </header>
+
+            <div id="content-area" class="glass-panel">
+            <div class="welcome-screen">
+                <h2>Welcome to Level 0</h2>
+                <p style="margin-top: 1rem; color: var(--text-muted);">Beginner - 500+ Words, Massive Conversations &amp; Full Grammar</p>
+                <div class="topic-grid" style="margin-top: 2rem;">
+                    <div class="topic-card" onclick="document.querySelector(&#39;[data-module=vocabulary]&#39;).click()">
+                        <i class="fa-solid fa-book-open"></i>
+                        <h3>Vocabulary</h3>
+                    </div>
+                    <div class="topic-card" onclick="document.querySelector(&#39;[data-module=grammar]&#39;).click()">
+                        <i class="fa-solid fa-scale-balanced"></i>
+                        <h3>Grammar</h3>
+                    </div>
+                    <div class="topic-card" onclick="document.querySelector(&#39;[data-module=conversation]&#39;).click()">
+                        <i class="fa-solid fa-comments"></i>
+                        <h3>Conversation</h3>
+                    </div>
+                    <div class="topic-card" onclick="document.querySelector(&#39;[data-module=listening]&#39;).click()">
+                        <i class="fa-solid fa-headphones"></i>
+                        <h3>Listening</h3>
+                    </div>
+                    <div class="topic-card" onclick="document.querySelector(&#39;[data-module=phonetics]&#39;).click()">
+                        <i class="fa-solid fa-microphone-lines"></i>
+                        <h3>Phonetics</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </main>
+    </div>
+
+    <!-- Scripts -->
+    <script src="./NativePath - Comprehensive English Learning_files/data.js"></script>
+    <script src="./NativePath - Comprehensive English Learning_files/app.js"></script>
+
+
+</body></html>
